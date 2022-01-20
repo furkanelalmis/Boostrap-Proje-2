@@ -2,7 +2,21 @@
 <html lang="en">
 
 <head>
+    <style>
+        .font-size {
+            font-size: 12px !important;
+        }
+        
+        .font-size-1 {
+            font-size: 20px !important;
+        }
+        
+        .color {
+            color: green !important;
+        }
+    </style>
     <title>Title</title>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,73 +31,163 @@
             <div class="col-4 text-center">
                 <img src="/proje-2-bootstrap/image/bootstrap-1.png" class="w-25" alt="">
                 <h1 class="text-center">Checkout form</h1>
-                <p class=" w-100 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio esse eligendi itaque maxime illo est! Veritatis a possimus fugit. Nihil, ipsum autem! Assumenda, repellat incidunt. Aliquam perspiciatis facere debitis possimus? Vel, ut.</p>
+                <p class=" w-100 mt-4 font-size-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio esse eligendi itaque maxime illo est! Veritatis a possimus fugit. Nihil, ipsum autem! Assumenda, repellat incidunt. Aliquam perspiciatis facere debitis possimus? Vel, ut.</p>
             </div>
         </div>
-        <div class="">
-            <h2 class=>Billing address</h2>
-            <form class="needle form">
-                <div class="form-row">
-                    <div class="col-md-4 mb-3">
-                        <label for="name">First name</label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="col-md-4 mb-3 ml-2">
-                        <label for="surname">Last name</label>
-                        <input type="text" class="form-control">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-8 mb-3 ">
-                        <label for="username">User name</label>
-                        <input type="text" class="form-control" placeholder="Username">
-                    </div>
-                    <div class="col-md-8 mb-3">
-                        <label for="email">Email (Optional)</label>
-                        <input type="text" class="form-control" placeholder="you@example.com">
-                    </div>
-                    <div class="col-md-8 mb-3">
-                        <label for="address">Address</label>
-                        <input type="text" class="form-control" placeholder="1234 Main St">
-                    </div>
-                    <div class="col-md-8 mb-3">
-                        <label for="address-2">Address 2 (Optional) </label>
-                        <input type="text" class="form-control" placeholder="Apartment or suite">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="col-md-3 mb-3">
-                        <label for="country">Country</label>
-                        <input type="number" class="form-control" placeholder="Choose...">
-                    </div>
-                    <div class="col-md-3 mb-3">
-                        <label for="state">State</label>
-                        <input type="number" class="form-control" placeholder="Choose...">
-                    </div>
-                    <div class="col-md-2 mb-3">
-                        <label for="zip">Zip</label>
-                        <input type="text" class="form-control">
-                    </div>
-                </div>
-            </form>
-            <hr>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" disabled>
-                <label for="customCheckbox" class="custom-control-label">Shipping address is the me as my billing address</label>
-            </div>
-            <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" disabled>
-                <label for="customCheckbox" class="custom-control-label">Save this information for next time</label>
-            </div>
-            <hr>
-        </div>
-    </div>
+        <div class="col-12">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-6">
+                        <h2 class=>Billing address</h2>
+                        <form class="needle form">
+                            <div class="form-row">
+                                <div class="col-md-4 mb-3">
+                                    <label for="name">First name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="col-md-4 mb-3 ml-2">
+                                    <label for="surname">Last name</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-8 mb-3 ">
+                                    <label for="username">User name</label>
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="col-md-8 mb-3">
+                                    <label for="email">Email (Optional)</label>
+                                    <input type="text" class="form-control" placeholder="you@example.com">
+                                </div>
+                                <div class="col-md-8 mb-3">
+                                    <label for="address">Address</label>
+                                    <input type="text" class="form-control" placeholder="1234 Main St">
+                                </div>
+                                <div class="col-md-8 mb-3">
+                                    <label for="address-2">Address 2 (Optional) </label>
+                                    <input type="text" class="form-control" placeholder="Apartment or suite">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-3 mb-3">
+                                    <label for="country">Country</label>
+                                    <input type="number" class="form-control" placeholder="Choose...">
+                                </div>
+                                <div class="col-md-3 mb-3">
+                                    <label for="state">State</label>
+                                    <input type="number" class="form-control" placeholder="Choose...">
+                                </div>
+                                <div class="col-md-2 mb-3">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </form>
+                        <hr class="col-sm-8 float-left">
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label for="customCheckbox" class="custom-control-label">Shipping address is the me as my billing address</label>
+                        </div>
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input">
+                            <label for="customCheckbox" class="custom-control-label">Save this information for next time</label>
+                        </div>
+                        <hr class="col-sm-8 float-left">
+                        <div class="head">
+                            <h3 class=" col-md-6 mt-3 mb-3 ">Payment</h3>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="inlineCheckbox">Credit Card</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="inlineCheckbox">Debit Card</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox">
+                                <label class="form-check-label" for="inlineCheckbox">Paypal </label>
+                            </div>
+                        </div>
+                        <form class="needle form">
+                            <div class="form-row">
+                                <div class="col-md-4 mt-2">
+                                    <label for="name">Name on card</label>
+                                    <input type="text" class="form-control">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                                </div>
+                                <div class="col-md-4 mb-3 ml-2 mt-2">
+                                    <label for="surname">Credit card number</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </form>
+                        <p class=font-size>Full name as displayed on card</p>
+                        <form class="neddle-form">
+                            <div class="form-row">
+                                <div class="col-md-2 mb-3">
+                                    <label for="zip">Expiration</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="col-md-2 mb-3 ml-1">
+                                    <label for="zip">CVV</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <hr class="col-sm-8 float-left">
+                        </form>
+                        <button class="btn btn-primary col-md-6">Continue to checkout</button>
+                    </div>
+                    <div class="col-md-6 card mt-5 " style="height:60vh">
+                        <div class="d-flex pr-6 pl-2 pt-2 pb-2">
+                            <h4 class="text-left col-9">Your cart </h4>
+                            <p class="text-right pl-4 pb-2 pt-2 pr-4 col-3 bg-secondary rounded-circle">3</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item ">Product name
+                                <span class="badge  pill float-right">$12</span>
+                                <p class="font-size-3">Brief description</p>
+                            </li>
+                            <li class="list-group-item">Second product
+                                <span class="badge pill float-right">$8</span>
+                                <p class="font-size-3">Brief description</p>
+                            </li>
+                            <li class="list-group-item">Third item
+                                <span class="badge  pill float-right">$5</span>
+                                <p class="font-size-3">Brief description</p>
+                            </li>
+                            <li class="list-group-item color">Promo code
+                                <span class="badge  pill float-right">$-5</span>
+                                <p class="font-size-3 color">EXAMPLECODE</p>
+                            </li>
+                            <li class="list-group-item ">Total (USD)
+                                <span class="badge  pill float-right">$20</span>
+                            </li>
+                        </ul>
+                        <form class="neddle-form ">
+                            <div class="input-group  col-md-8 mt-4">
+                                <input type="text" class="form-control" placeholder="Promo code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text" id="basic-addon2">Redeem</span>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="text-center mt-5">
+            <p class="">2017-2018 Company Name</p>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Support</a>
+        </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
